@@ -8,4 +8,13 @@
 
 let a = 'Bonjour';
 
+let celcius = prompt("Température en celcius : ");
+celcius = parseInt(celcius);
+
+if(isNaN(celcius)) {
+    alert("Entrer un nombre");
+} else {
+    alert(`${celcius}°C = ${celcius * 9 / 5 + 32}°F`);
+}
+
 console.log(a);
