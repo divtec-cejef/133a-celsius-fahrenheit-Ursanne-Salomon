@@ -8,12 +8,15 @@
 
 let a = 'Bonjour';
 
+// demande la température a l'utilisateur
 let celcius = prompt("Température en celcius : ");
 celcius = parseInt(celcius);
 
+// vérifie que la donnée saisie soit un nombre
 if(isNaN(celcius)) {
     alert("Entrer un nombre");
 } else {
+    // affiche la valeur en celcius et en fahrenheit
     alert(`${celcius}°C = ${celcius * 9 / 5 + 32}°F`);
 }
 
