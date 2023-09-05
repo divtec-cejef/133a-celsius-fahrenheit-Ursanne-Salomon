@@ -14,6 +14,7 @@ celcius = parseFloat(celcius);
 
 // vérifie que la donnée saisie soit un nombre
 if(isNaN(celcius)) {
+    // affiche un message d'erreur a l'utilisateur
     alert("Entrer un nombre");
 } else {
     // affiche la valeur en celcius et en fahrenheit
